@@ -15,6 +15,6 @@
 
 ## 프로젝트 진행 상황
 
-- [x] 제목 가져오는 크롤러 만들기 - #1
+- [x] 제목 가져오는 크롤러 만들기 - [#1](https://github.com/kjh107704/AlgorithmProblemFormatter/issues/1)
 - [ ] `MAKE` 명령어를 이용하여 `target_plateform`별로 정해진 형식으로 파일 만들기
 - [ ] `git push` 명령어 실행 시, 자동으로 `README.md` 업데이트하기
