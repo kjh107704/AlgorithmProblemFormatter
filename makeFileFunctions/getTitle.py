@@ -66,7 +66,7 @@ def getTaget():
     except WrongType:
         pass
 
-def getProblemInformation(target_platform, target_problem):
+def getProblemTitle(target_platform, target_problem):
     try:
         crawler = Crawler()
         if (hasattr(crawler, target_platform)):
@@ -80,7 +80,7 @@ def getProblemInformation(target_platform, target_problem):
 def main():
     target_platform, target_problem = getTaget()
 
-    title = getProblemInformation(target_platform, target_problem)
+    title = getProblemTitle(target_platform, target_problem)
     print(title)
     return title
 
