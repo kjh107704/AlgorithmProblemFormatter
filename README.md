@@ -18,3 +18,15 @@
 - [x] 제목 가져오는 크롤러 만들기 - [#1](https://github.com/kjh107704/AlgorithmProblemFormatter/issues/1)
 - [ ] `MAKE` 명령어를 이용하여 `target_plateform`별로 정해진 형식으로 파일 만들기
 - [ ] `git push` 명령어 실행 시, 자동으로 `README.md` 업데이트하기
+
+
+---
+
+## 프로그램 환경
+
+### main.cpp
+
+- **C++17 이상 필요** 
+  - `experimental/filesystem` 라이브러리 사용
+- [jsoncpp](https://github.com/open-source-parsers/jsoncpp) 사용 
+  - `/makeFileFUnctions/dist/`에 실행시 필요한 헤더들 포함되어 있음
