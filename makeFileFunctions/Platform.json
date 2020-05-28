@@ -1,0 +1,12 @@
+{
+    "BOJ" : {
+        "MainLink": "https://www.acmicpc.net/",
+        "ProblemLinkSuffix": "https://www.acmicpc.net/problem/",
+        "CrawlTarget" : {
+            "tag" : "span",
+            "serchFiter" : "id",
+            "search" : "problem_title"
+        },
+        "Path" : "..\\BOJ\\"
+    }
+}
