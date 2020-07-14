@@ -1,0 +1,18 @@
+# declare the variable
+CC = g++
+TARGET = ./makeFileFunctions/main.exe
+JSONCPP = ./makeFileFunctions/dist/jsoncpp.cpp
+MAIN = ./makeFileFunctions/main.cpp
+
+
+DIR = ./makeFileFunctions
+
+script:
+	
+
+
+setup:
+	@echo Create an executable file...
+	@echo You only need to do this once...
+	$(CC) -std=c++17  $(JSONCPP) $(MAIN) -lstdc++fs -o $(TARGET)
+	@echo The executable was created successfully

@@ -30,3 +30,15 @@
   - `experimental/filesystem` 라이브러리 사용
 - [jsoncpp](https://github.com/open-source-parsers/jsoncpp) 사용 
   - `/makeFileFUnctions/dist/`에 실행시 필요한 헤더들 포함되어 있음
+
+### getTitle.py
+
+- `Python 3.7.6` 
+
+### makeFile
+
+- 윈도우 운영체제의 경우, `make` 명령어가 지원되지 않기 때문에 따로 설치해야 함
+  - [GNU Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)에 접속
+  - Download - Complete package, except sources 받기 (SourceForge 사이트로 이동함)
+  - 다운이 완료된 후 실행파일을 실행하여 설치하고, 시스템 환경 변수에 `...다운로드_경로...\GnuWin32\bin` 추가
+  - cmd에서 `make -v` 명령어를 실행하여 오류가 없는지 확인
